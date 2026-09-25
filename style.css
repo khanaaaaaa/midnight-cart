@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("augiepixel.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #e8e0e2;
+    font-family: "MyFont", sans-serif;
+}
+
+.page {
+    width: min(900px, 88%);
+    margin: auto;
+    padding: 70px 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.tiny {
+    color: #8e777d;
+    font-family: MyFont;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 55px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    color: #f0e5e8;
+    -webkit-text-stroke: 3px #000;
+    paint-order: stroke fill;
+}
